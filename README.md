@@ -1,1 +1,1 @@
-# homebrew-tap
+# homebrew-tap for rasterfox-cli
