@@ -12,6 +12,7 @@ cask "magpie" do
     strategy :sparkle
   end
 
+  depends_on arch: :arm64
   depends_on macos: :sonoma
 
   app "Magpie.app"
