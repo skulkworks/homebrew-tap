@@ -1,6 +1,6 @@
 cask "inboxfox" do
-  version "1.0.0,1" # marketing,build — build-stamped DMG URL below
-  sha256 :no_check # TODO: set to `shasum -a 256 build/InboxFox.dmg` on first real release
+  version "1.0.6,13" # marketing,build — build-stamped DMG URL below
+  sha256 "9b338a7ba094e8d2f89ea6de3adfcd6d8fc28c270b09115dc3fb31e418d23344"
 
   url "https://updates.skulkworks.dev/inboxfox/InboxFox-#{version.csv.first}-#{version.csv.second}.dmg"
   name "InboxFox"
