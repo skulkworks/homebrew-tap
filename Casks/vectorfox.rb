@@ -1,6 +1,6 @@
 cask "vectorfox" do
   version "1.5.3,37" # marketing,build — build-stamped DMG URL below
-  sha256 :no_check # TODO: shasum -a 256 build/VectorFox.dmg after the first release
+  sha256 "961d9fb937fefdfadb9072cb59d9a61764a38850f5f67e10563eddb70b656c12"
 
   url "https://updates.skulkworks.dev/vectorfox/VectorFox-#{version.csv.first}-#{version.csv.second}.dmg"
   name "VectorFox"
