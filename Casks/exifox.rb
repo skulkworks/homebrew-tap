@@ -1,6 +1,6 @@
 cask "exifox" do
-  version "1.0.2,7" # marketing,build — build-stamped DMG URL below
-  sha256 "99ba3ad4675afd8daa9b5bdf1b27a1b43bcfd8ae0f3ddc5d3b4d0a5cef28a72a"
+  version "1.0.3,8" # marketing,build — build-stamped DMG URL below
+  sha256 "e5c0bd92b8d84d43337321b0ba70f7a41144d759cf888da4495cbf31d34d6bb2"
 
   url "https://updates.skulkworks.dev/exifox/ExiFox-#{version.csv.first}-#{version.csv.second}.dmg"
   name "ExiFox"
