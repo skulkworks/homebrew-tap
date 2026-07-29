@@ -1,18 +1,19 @@
 cask "foxsay" do
-  version "1.0.0"
-  sha256 :no_check  # Update with actual SHA after first release
+  version "2.0.0,11" # marketing,build for the build-stamped DMG URL below
+  sha256 "d3e2bb46137953da6baf2225f0d551a24e65019aa18dfce4d70f7d2f3e352216"
 
-  url "https://github.com/skulkworks/foxsay/releases/download/v#{version}/FoxSay.dmg"
+  url "https://updates.skulkworks.dev/foxsay/FoxSay-#{version.csv.first}-#{version.csv.second}.dmg"
   name "FoxSay"
-  desc "Speech-to-text for developers with AI-powered correction"
+  desc "On-device speech to text with local AI cleanup"
   homepage "https://skulkworks.dev/foxsay"
 
   livecheck do
-    url :url
-    strategy :github_latest
+    url "https://updates.skulkworks.dev/foxsay/appcast.xml"
+    strategy :sparkle
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
+  # MLX and the on-device speech models are Apple silicon only.
   depends_on arch: :arm64
 
   app "FoxSay.app"
