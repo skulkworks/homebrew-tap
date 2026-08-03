@@ -1,6 +1,6 @@
 cask "vectorfox" do
-  version "2.0.1,41" # marketing,build — build-stamped DMG URL below
-  sha256 "05b997452329bbd2fca146f5b08422163c6cb699b7edfbbbb029fba48811b889"
+  version "2.0.2,42" # marketing,build — build-stamped DMG URL below
+  sha256 "5289630e6e01191efbdebaaa995b435c535ad4168d876234f02820e56c63ca03"
 
   url "https://updates.skulkworks.dev/vectorfox/VectorFox-#{version.csv.first}-#{version.csv.second}.dmg"
   name "VectorFox"
