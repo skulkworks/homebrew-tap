@@ -1,6 +1,6 @@
 cask "magpie" do
-  version "2.1.2,19" # marketing,build — build-stamped DMG URL below
-  sha256 "e2e9458e117829c5edd9f4fa8ad27fd1c790104887572a88538f63b456876e21"
+  version "2.2.0,20" # marketing,build — build-stamped DMG URL below
+  sha256 "a9933ee3791566cc78cea9473dea237731e417789cbf7e8c6aa7c54aaecff74c"
 
   url "https://updates.skulkworks.dev/magpie/Magpie-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Magpie"
