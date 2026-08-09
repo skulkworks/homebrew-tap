@@ -1,6 +1,6 @@
 cask "riffle" do
-  version "2.0.3,46" # marketing,build — build-stamped DMG URL below
-  sha256 "bb05eafe320491c40c6ee43c038c67383c07c790ecb03edf69a98941e40c5851"
+  version "2.0.4,47" # marketing,build — build-stamped DMG URL below
+  sha256 "a848f8ad481a750589cacb3a08227c72fd4e7305f355b53276353c1625a4380b"
 
   url "https://updates.skulkworks.dev/riffle/Riffle-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Riffle"
