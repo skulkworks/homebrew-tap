@@ -8,6 +8,9 @@ class RasterfoxCli < Formula
   desc "Professional image optimization CLI tool for bulk operations"
   homepage "https://github.com/skulkworks/rasterfox-cli"
   license :cannot_represent
+  # Explicit: the per-platform URLs end in "-arm64.tar.gz", and Homebrew's version
+  # detection pulls "64" out of that rather than the 2.2.0 earlier in the name.
+  version "2.2.0"
 
   on_macos do
     on_arm do

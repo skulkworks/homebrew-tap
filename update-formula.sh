@@ -67,6 +67,8 @@ class RasterfoxCli < Formula
   homepage "https://github.com/skulkworks/rasterfox-cli"
   url "${TARBALL_URL}"
   sha256 "${SHA256}"
+  # Explicit: Homebrew's version detection reads "64" out of an "-arm64.tar.gz" URL.
+  version "${VERSION}"
   license "GPL-3.0-or-later"
   head "https://github.com/skulkworks/rasterfox-cli.git", branch: "main"
 
