@@ -4,7 +4,7 @@
 # - Linux ARM64 musl (Alpine/static): rasterfox-2.2.0-linux-aarch64-musl.tar.gz
 # Download from: https://github.com/skulkworks/homebrew-tap/releases/download/rasterfox-2.2.0/
 
-class Rasterfox < Formula
+class RasterfoxCli < Formula
   desc "Professional image optimization CLI tool for bulk operations"
   homepage "https://github.com/skulkworks/rasterfox-cli"
   license :cannot_represent

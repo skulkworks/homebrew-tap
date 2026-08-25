@@ -8,7 +8,7 @@ set -e
 
 # Configuration
 REPO="skulkworks/rasterfox-cli"
-FORMULA_PATH="Formula/rasterfox.rb"
+FORMULA_PATH="Formula/rasterfox-cli.rb"
 
 # Colors for output
 RED='\033[0;31m'
@@ -62,7 +62,7 @@ if [ ! -f "$FORMULA_PATH" ]; then
     mkdir -p "$(dirname "$FORMULA_PATH")"
     
     cat > "$FORMULA_PATH" << EOF
-class Rasterfox < Formula
+class RasterfoxCli < Formula
   desc "Professional image optimization CLI tool for bulk operations"
   homepage "https://github.com/skulkworks/rasterfox-cli"
   url "${TARBALL_URL}"
@@ -125,7 +125,7 @@ echo "💾 Committing changes..."
 if git diff --quiet; then
     echo -e "${YELLOW}ℹ️  No changes to commit (formula already up to date)${NC}"
 else
-    git add Formula/rasterfox.rb
+    git add Formula/rasterfox-cli.rb
     git commit -m "Update RasterFox to v${VERSION}" -m "SHA256: ${SHA256}"
     echo -e "${GREEN}✓ Changes committed${NC}"
     
