@@ -1,6 +1,6 @@
 cask "rasterfox" do
-  version "3.1.3,57" # marketing,build — build-stamped DMG URL below
-  sha256 "8670bf98a50bcf720d4852a40c80f701c74ce05d2b65952de6b597f1facb0b0f"
+  version "3.1.4,58" # marketing,build — build-stamped DMG URL below
+  sha256 "5e9be6a589e2de5d823f9e1c7fa5d33a2e25ff218a2c8cdd17087e223ef8cdf2"
 
   url "https://updates.skulkworks.dev/rasterfox/RasterFox-#{version.csv.first}-#{version.csv.second}.dmg"
   name "RasterFox"
