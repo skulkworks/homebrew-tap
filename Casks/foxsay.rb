@@ -1,6 +1,6 @@
 cask "foxsay" do
-  version "2.2.1,15" # marketing,build for the build-stamped DMG URL below
-  sha256 "9c1c0eea99515e15b6074e8e856abc8513687bf880690d174d716744cffaffa7"
+  version "2.2.2,16" # marketing,build for the build-stamped DMG URL below
+  sha256 "636ed243c04def8805f3db9590f0abea5ff36dbc570d962efce4ac11710499d3"
 
   url "https://updates.skulkworks.dev/foxsay/FoxSay-#{version.csv.first}-#{version.csv.second}.dmg"
   name "FoxSay"
