@@ -12,7 +12,7 @@ cask "triage" do
     strategy :sparkle
   end
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Triage.app"
 
