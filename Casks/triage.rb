@@ -1,6 +1,6 @@
 cask "triage" do
-  version "0.1.0,1" # marketing,build for the build-stamped DMG URL below
-  sha256 "358566fa2d025f555585681e4324272b970311fc76cd83a9890fe25e35984dbf" # set by the first release
+  version "0.1.1,2" # marketing,build for the build-stamped DMG URL below
+  sha256 "a258366c8110c5cf11bc83dcf380e6891d3e0c9bbf20154af4aea67d8595a00b" # set by the first release
 
   url "https://updates.skulkworks.dev/triage/Triage-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Triage"
